@@ -1,0 +1,26 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.characters__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 250px));
+    width: 100%;
+    gap: 1rem;
+    margin: 0 auto;
+    place-content: center;
+}
+
+.searchWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+
+img {
+    width: 100%;
+}
